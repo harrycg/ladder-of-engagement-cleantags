@@ -42,3 +42,4 @@ end
 =begin
   client.call(:people, :bulk_tag_removal , params)
 
+=end
