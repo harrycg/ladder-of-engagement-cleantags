@@ -5,7 +5,7 @@ client = NationBuilder::Client.new('aycc', ENV['NATIONBUILDER_APIKEY'], retries:
 puts "Loading people with tag is: awesome core q2 2018"
 
 filter = {
-  tag=  tag: "is:%20awesome%20core%20q2%202018"
+  tag: "is:%20awesome%20core%20q2%202018"
   }
   
 response = client.call(:people_tags, :people, filter)
