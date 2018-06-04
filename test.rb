@@ -28,18 +28,18 @@ people.each do |person|
 puts "#{first_name} #{last_name}"
 
 
-params3 = {
+params = {
  id: "#{id}",
   tagging: {
-    tag: "showmethemoney"
+    tag: "is: community 2018"
   }
   
 }
-    client.call(:people, :tag_person , params3)
+  client.call(:people, :bulk_tag_removal , params)
 
 end
 
 =begin
-  client.call(:people, :bulk_tag_removal , params)
+    client.call(:people, :tag_person , params3)
 
 =end
