@@ -25,7 +25,7 @@ people.each do |person|
     last_name = person['last_name']
   id = person['id']
   
-puts "#{first_name} #{last_name}"
+puts "#{email}"
 
 
 params = {
